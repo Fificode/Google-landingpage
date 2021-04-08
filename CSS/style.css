@@ -1,0 +1,87 @@
+*{margin: 0;
+padding: 0;}
+body{
+    background-color: #fff;
+}
+
+.nav-links{display: flex;
+justify-content: flex-end;
+margin-top: 20px;
+}
+a{text-decoration: none;
+}
+.links{padding-right: 20px;
+    padding-top: 4px;
+    color: #000;
+}
+.icon-box{width: 30px;
+height: auto;
+padding-right: 20px;
+}
+
+.profile-picture{border-radius: 50%;
+  width: 30px;
+height: auto;
+padding-right: 10px;
+ }
+#google-image{width: 350px;
+height: auto;
+display: block;
+margin: auto;}
+input[type=text]{display: block;
+    margin:auto;
+    border: 1px solid #333;
+border-radius: 15px;
+padding: 12px;
+width: 50%;
+position: relative;
+}
+.search-icon{width: 20px;
+    height: auto;
+position: absolute;
+top: 245px;
+left: 340px;
+}
+.voicenote-icon{width: 20px;
+    height: auto;
+    position: absolute;
+    top: 245px;
+    right: 340px;
+}
+
+.button{display: flex;
+justify-content: center;}
+
+.btn{margin: 35px 30px 0 0;
+padding: 5px;
+border-style: none;
+cursor: pointer;}
+.google-offers{text-align: center;
+margin-top: 30px;}
+
+.lang{color: rgb(66, 66, 233);
+padding-right: 5px;}
+
+.footer{margin-top: 130px;
+    background-color: rgb(219, 217, 217);
+color: #000;
+height: 150px;}
+.country{height: 50px;
+padding-left: 10px;
+padding-top: 25px;}
+.border{border-bottom: 1px solid #333;}
+.footer-flex-container{margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.container-one{
+    display: flex;
+    flex-direction: row;
+    }
+.footer-link{color: #000;}
+.container-three{
+    display: flex;
+    flex-direction: row;
+    }
+    .item1{padding-left: 10px;}
+    .item2{padding-right: 10px;}
